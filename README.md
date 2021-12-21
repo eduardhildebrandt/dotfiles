@@ -1,6 +1,6 @@
 # dotfiles
 
-This configuration helps save a few thousand keystrokes a day. I use macOS, so I can only guarantee they'll work on a Mac.
+This is the configuration for my Mac.
 
 ## License
 
