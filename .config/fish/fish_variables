@@ -1,6 +1,12 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
+SETUVAR _fisher_0rax_2F_fish_2D_bd_files:~/\x2econfig/fish/functions/bd\x2efish\x1e~/\x2econfig/fish/functions/uninstall\x2efish\x1e/Users/eduardhildebrandt/\x2econfig/fish/completions/bd\x2efish
+SETUVAR _fisher_PatrickF1_2F_fzf_2E_fish_files:~/\x2econfig/fish/functions/_fzf_configure_bindings_help\x2efish\x1e/Users/eduardhildebrandt/\x2econfig/fish/functions/_fzf_extract_var_info\x2efish\x1e/Users/eduardhildebrandt/\x2econfig/fish/functions/_fzf_preview_file\x2efish\x1e/Users/eduardhildebrandt/\x2econfig/fish/functions/_fzf_report_file_type\x2efish\x1e~/\x2econfig/fish/functions/_fzf_search_directory\x2efish\x1e/Users/eduardhildebrandt/\x2econfig/fish/functions/_fzf_search_git_log\x2efish\x1e/Users/eduardhildebrandt/\x2econfig/fish/functions/_fzf_search_git_status\x2efish\x1e/Users/eduardhildebrandt/\x2econfig/fish/functions/_fzf_search_history\x2efish\x1e/Users/eduardhildebrandt/\x2econfig/fish/functions/_fzf_search_processes\x2efish\x1e/Users/eduardhildebrandt/\x2econfig/fish/functions/_fzf_search_variables\x2efish\x1e/Users/eduardhildebrandt/\x2econfig/fish/functions/_fzf_wrapper\x2efish\x1e/Users/eduardhildebrandt/\x2econfig/fish/functions/fzf_configure_bindings\x2efish\x1e/Users/eduardhildebrandt/\x2econfig/fish/conf\x2ed/fzf\x2efish\x1e/Users/eduardhildebrandt/\x2econfig/fish/completions/fzf_configure_bindings\x2efish
+SETUVAR _fisher_andreiborisov_2F_sponge_files:~/\x2econfig/fish/functions/_sponge_clear_state\x2efish\x1e~/\x2econfig/fish/functions/_sponge_on_exit\x2efish\x1e~/\x2econfig/fish/functions/_sponge_on_postexec\x2efish\x1e~/\x2econfig/fish/functions/_sponge_on_preexec\x2efish\x1e~/\x2econfig/fish/functions/_sponge_on_prompt\x2efish\x1e~/\x2econfig/fish/functions/_sponge_remove_from_history\x2efish\x1e~/\x2econfig/fish/functions/sponge_filter_failed\x2efish\x1e~/\x2econfig/fish/functions/sponge_filter_matched\x2efish\x1e~/\x2econfig/fish/conf\x2ed/sponge\x2efish
+SETUVAR _fisher_danhper_2F_fish_2D_ssh_2D_agent_files:~/\x2econfig/fish/functions/__ssh_agent_is_started\x2efish\x1e~/\x2econfig/fish/functions/__ssh_agent_start\x2efish\x1e~/\x2econfig/fish/conf\x2ed/fish\x2dssh\x2dagent\x2efish
+SETUVAR _fisher_jorgebucaran_2F_nvm_2E_fish_files:~/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e~/\x2econfig/fish/functions/_nvm_list\x2efish\x1e~/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e~/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e~/\x2econfig/fish/functions/nvm\x2efish\x1e~/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e~/\x2econfig/fish/completions/nvm\x2efish
+SETUVAR _fisher_plugins:andreiborisov/sponge\x1ePatrickF1/fzf\x2efish\x1edanhper/fish\x2dssh\x2dagent\x1e0rax/fish\x2dbd\x1ejorgebucaran/nvm\x2efish
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:005fd7
@@ -28,3 +34,10 @@ SETUVAR fish_pager_color_completion:\x1d
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
+SETUVAR nvm_data:~/\x2elocal/share/nvm
+SETUVAR nvm_mirror:https\x3a//nodejs\x2eorg/dist
+SETUVAR sponge_allow_previously_successful:true
+SETUVAR sponge_delay:2
+SETUVAR sponge_filters:sponge_filter_failed\x1esponge_filter_matched
+SETUVAR sponge_regex_patterns:\x1d
+SETUVAR sponge_successful_exit_codes:0
