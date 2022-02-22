@@ -1,2 +1,8 @@
 .idea
 *.iml
+/.config/configstore/update-notifier-npm.json
+/.config/gcloud/logs/
+/.config/gcloud/.last_update_check.json
+/.config/gcloud/.last_opt_in_prompt.yaml
+/.config/gcloud/.last_survey_prompt.yaml
+/.config/gcloud/.metricsUUID
