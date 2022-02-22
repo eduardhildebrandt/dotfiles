@@ -97,6 +97,11 @@ defaults write com.apple.systempreferences NSQuitAlwaysKeepsWindows -bool false
 # Remove duplicates in the “Open With” menu (also see `lscleanup` alias)
 /System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user
 
+# Disable sound at startup
+if [[ "$RUN_AS_ROOT" = true ]]; then
+  sudo nvram StartupMute=%01
+fi
+
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
 ###############################################################################
